@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  background: pink;
+}
+div.clock {
+  border: 10px solid #4c4cff;
+  background-color: #ccccff;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin: 50px auto;
+  padding: 5px;
+  }
+
+.hands {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.secondHand,.minuteHand,.hourHand {
+  width: 50%;
+  top:50%;
+  background-color: orange;
+  border: 2px solid orange;
+  position:absolute;
+  height: 1px;
+  transform: rotate(90deg);
+  transform-origin: right;
+}
+.minuteHand{
+  height:5px;
+}
+.hourhand {
+  height: 8px;
+}
