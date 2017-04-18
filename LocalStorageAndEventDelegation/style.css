@@ -1,0 +1,90 @@
+html{
+ height: 100%;
+}
+body {
+ background-image: url("http://i.ndtvimg.com/i/2015-06/restaurant_625x350_81433243035.jpg");
+ min-height: 1000px;
+ background-size: 100%;
+ background-color: pink;
+ position:absolute; top:0; bottom:0; right:0; left:0;
+}
+svg {
+ border: 1px solid black;
+ border-radius: 50%;
+ width: 100px;
+ height: 100px;
+ padding: 10px;
+ display: block;
+ text-align: center;
+ margin: 10% auto 10px;
+
+
+}
+.footer{
+ text-align: center;
+ display: block;
+ margin-bottom: 10px;
+ position: relative;
+}
+h2{
+ padding-top: 20px;
+ text-align: center;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 50%;
+  background-color: #FAEBD7;
+}
+
+.plates input+label:before {
+  content: '⬜️';
+  margin-right: 10px;
+}
+.plates input:checked + label:before {
+      content: '🌮';
+    }
+ul {
+ padding-left: 10px;
+
+}
+
+li{
+ list-style-type: none;
+ border-bottom: 1px solid black;
+ padding-top: 10px;
+}
+li p {
+  list-style-type: none;
+}
+.add-items {
+ padding: 10px; 
+ }
+input[type="text"] {
+ padding: 4px;
+ text-align: center;
+ display: inline-block;
+ width: 40%; 
+ float: left;
+
+
+}
+input[type="text"]:focus {
+  border: 2px solid grey;
+  background-color: #e1d3c1;
+  
+}
+input[type="submit"] {
+ padding: 3px;
+ display: inline-block;
+ background-color: #e1d3c1;
+ width: 40%;
+ float: right;
+
+}
+input[type="checkbox"] {
+  display: none;
+}
+.clearfix{
+ clear: both;
+}
+
